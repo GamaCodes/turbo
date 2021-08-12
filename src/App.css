@@ -1,48 +1,128 @@
-.App {
+.nav-contain {
+  background-color: #0088A8;
   text-align: center;
+  padding: 1rem 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  margin-bottom: 3rem;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-contain{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.hero-logo{
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.hero-img{
+  height:50vh;
+}
+
+.hero-card{
+  margin: 2rem;
+  width: 70vw;
+}
+
+.hero-h2{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.hero-button{
+  margin-left: 1rem;
+  background-color: #3FA9F5;
+  border-color: #3FA9F5;
+}
+
+.about-contain{
+  background-color: #0088A8;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.about-h2{
+  background-color: #3FA9F5;
+  padding: 1rem 0;
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-  font-size: 1rem;
-  letter-spacing: .8rem;
-  font-weight: bold;
+.about-card{
+  width: 80vw;
+  text-align: center;
+  margin: 1rem auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-img{
+  width: 40vw;
+  margin-bottom: 1rem;
+}
+
+.service-contain{
+  padding: 2rem 0;
+  width: 95vw;
+  text-align: center;
+  margin: auto;
+}
+
+.service-h3{
+  background-color: #0088A8;
+  border-radius: 8%;
+  color: white;
+}
+
+.service-card{
+  background-color: #0088A8;
+  color: white;
+}
+
+.service-list{
+  background-color: #3FA9F5;
+  opacity: 0.6;
+  color: black;
+}
+
+.service-svg{
+  width: 60vw;
+}
+
+.footer-contain{
+  background-color: #0088A8;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer-hr{
+  color: white;
+  height: 2px;
+}
+
+.footer-p{
+  color: white;
 }
 
 @media (min-width: 600px) {
-  .App-link {
-    font-size: 2rem;
+  .hero-contain{
+    flex-direction: row;
+    justify-content: center;
+  }
+  .hero-img{
+    height:75vh;
+  }
+  .hero-card{
+    width: 30vw;
+  }
+  .about-img{
+    width: 10vw;
+  }
+  .about-card{
+    width: 40vw;
+  }
+  .service-contain{
+    width: 50vw;
+  }
+  .service-svg{
+    width: 20vw;
   }
 }
